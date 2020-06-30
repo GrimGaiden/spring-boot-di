@@ -1,4 +1,4 @@
-package com.bolsadeideas.springboot.app.springbootdi;
+package com.bolsadeideas.springboot.app.spring-boot-di;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
