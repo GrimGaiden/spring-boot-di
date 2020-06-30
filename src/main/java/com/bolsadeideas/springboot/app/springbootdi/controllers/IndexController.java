@@ -1,6 +1,6 @@
 package com.bolsadeideas.springboot.app.springbootdi.controllers;
 
-import com.bolsadeideas.springboot.app.springbootdi.models.services.MiServicio;
+import com.bolsadeideas.springboot.app.springbootdi.models.services.Servicio;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class IndexController {
 
     @Autowired
-    private MiServicio servicio;
+    private Servicio servicio;
 
     @GetMapping({"/", "", "/index"})
     public String index(Model model) {
