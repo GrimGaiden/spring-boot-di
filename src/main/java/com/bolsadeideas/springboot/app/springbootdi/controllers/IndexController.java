@@ -14,7 +14,7 @@ public class IndexController {
     private Servicio servicio;
 
     @Autowired
-    public IndexController(@Qualifier("miServicioComplejo") Servicio servicio) {
+    public IndexController(Servicio servicio) {
         this.servicio = servicio;
     }
 
