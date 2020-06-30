@@ -1,8 +1,8 @@
 package com.bolsadeideas.springboot.app.springbootdi.models.services;
 
-import org.springframework.stereotype.Component;
+//import org.springframework.stereotype.Component;
 
-@Component("miServicioComplejo")
+//@Component("miServicioComplejo")
 public class MiServicioComplejo implements Servicio{
     
     @Override
